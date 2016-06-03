@@ -1,0 +1,24 @@
+{
+  "name": "steveorevo/config-file",
+  "description": "Allows for easy querying and updating of popular configuration and source code file formats (Apache config, PHP, ini, etc).",
+  "keywords": ["config","ini", "parse"],
+  "homepage": "https://github.com/Steveorevo/config-file",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stephen J. Carnam",
+      "email": "steve@steveorevo.com",
+      "homepage": "http://steveorevo.com",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "steveorevo/gstring": "1.1.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Steveorevo": "src"
+    }
+  }
+}
